@@ -5,7 +5,8 @@ import asyncio
 # input location (lat, long)
 location = input("Enter location: ")
 # search weather for the input location
-# return result
+
+print("Hello User")
 async def getweather(location):
     # declare the client. format defaults to metric system (celcius, km/h, etc.)
     client = python_weather.Client(format=python_weather.IMPERIAL)
